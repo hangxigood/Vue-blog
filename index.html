@@ -7,7 +7,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- css -->
-    <!-- <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">  
+    <style>
+        [v-cloak] {
+          display: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -20,7 +25,7 @@
                 </div>
             </div><!-- col-md-4 -->
             <div class="col-md-8 col-sm-7 col-xs-4">
-                <nav class="main-nav" role="navigation">
+                <nav class="main-nav" role="navigation" >
                     <div class="navbar-header">
                         <button type="button" id="trigger-overlay" class="navbar-toggle">
                             <span class="ion-navicon"></span>
@@ -30,12 +35,12 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
                             <li class="cl-effect-11"><a href="/" data-hover="首页">首页</a></li>
-                            <li class="cl-effect-11"><a href="about.html" data-hover="关于">关于</a></li>
-                            <li class="cl-effect-11"><a href="contact.html" data-hover="联系">联系</a></li>
+                            <li class="cl-effect-11"><a href="/about.html" data-hover="关于">关于</a></li>
+                            <li class="cl-effect-11"><a href="/contact.html" data-hover="联系">联系</a></li>
                         </ul>
-                    </div><!-- /.navbar-collapse -->
+                    </div>
                 </nav>
-                <div id="header-search-box">
+                <!-- <div id="header-search-box">
                     <a id="search-menu" href="#"><span id="search-icon" class="ion-ios-search-strong"></span></a>
                     <div id="search-form" class="search-form">
                         <form role="search" method="get" id="searchform" action="#">
@@ -43,13 +48,11 @@
                             <button type="submit"><span class="ion-ios-search-strong"></span></button>
                         </form>
                     </div>
-                </div>
+                </div> -->
             </div><!-- col-md-8 -->
         </div>
     </header>
 </div>
-<div class="copyrights">Collect from <a href="http://www.cssmoban.com/">网页模板</a></div>
-<div class="copyrights">Modified by <a href="http://zmrenwu.com/">追梦人物的博客</a></div>
 
 <div class="content-body">
     <div class="container">
@@ -61,7 +64,7 @@
 </div>
 
 <!-- Mobile Menu -->
-<div class="overlay overlay-hugeinc">
+<div class="overlay overlay-hugeinc" v-cloak>
     <button type="button" class="overlay-close"><span class="ion-ios-close-empty"></span></button>
     <nav>
         <ul>

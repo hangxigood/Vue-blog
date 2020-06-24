@@ -11,7 +11,7 @@
                             <span class="post-date"><a href="#"><time class="entry-date"
                                                                       >{{post.created_time}}</time></a></span>
                             <span class="post-author"><a href="#">{{post.author}}</a></span>
-                            <span class="comments-link"><a href="#">4 评论</a></span>
+                            <span class="comments-link"><a href="#">{{post.comments_num}} 评论</a></span>
                             <span class="views-count"><a href="#">{{post.views}}阅读</a></span>
                         </div>
                     </header>
