@@ -1,3 +1,8 @@
+# 简介
+
+Vue 学习项目，简单的博客前端页面，搭配 Django 后端 API 使用。
+Django 后端项目地址： https://github.com/hangxigood/blog_django
+
 # test
 
 > blog_vue
