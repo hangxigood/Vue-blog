@@ -1,4 +1,17 @@
 # Vue-blog
 基于 Vue 的简单博客前端项目，还在学习开发中。
-后端使用 Django rest-framework api，后端项目地址为：https://github.com/hangxigood/blog_django
+
+目前仅实现了以下功能：
+
+- 文章列表、文章单篇展示；
+- 评论展示；
+- 文章按标签、领域、发布时间分类展示；
+
+随着对 Vue 的继续学习实践，将继续实现以下功能：
+
+- 评论发布；
+- 用户登陆（包括第三方登陆）；
+- 页面流畅度优化；
+
+后端使用 Django，后端项目地址为：https://github.com/hangxigood/blog_django
 
