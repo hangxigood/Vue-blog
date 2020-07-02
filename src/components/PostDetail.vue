@@ -11,7 +11,7 @@
                     <span class="views-count"><a href="#">{{post.views}}阅读</a></span>
                 </div>
             </header>
-            <div class="entry-content">
+            <div class="entry-content" v-highlight>
               <span v-html="post.body_html"></span>
             </div>
         </article>
